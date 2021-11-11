@@ -1,0 +1,118 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ol, ul, li{
+    list-style: none;
+}
+
+.contianer{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+body{
+    background-image: url("../img/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont,;
+}
+
+#form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(7, 6, 7);
+}
+
+#input{
+    background-color: transparent;
+    font-size: 18px;
+    padding: 15px;
+    width: 20%;
+    border: none;
+    border-bottom: 3px solid red;
+    font-weight: bold;
+    outline: none;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#hsob{
+    transition: .5s;
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: bold;
+    color: chartreuse;
+    border: none;
+    font-size: 16px;
+}
+
+#btn:focus{
+    color:dodgerblue;
+    transform: scale(1.1);
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 70px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid rgb(221, 24, 139);
+    border-radius: 7px;
+    width: 250px;
+    height: 100px;
+    background: rgba(93, 4, 235, 0.507);
+    padding: 77px;
+}
+
+#foot, #bicycle, #car, #plane, p{
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text{
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i {
+font-size: 35px;
+color: black;
+padding-top: 22px;
+}
